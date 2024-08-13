@@ -66,7 +66,7 @@ while opcao != 7:
         Listar = listarBancoDados(con, consultarDados)
         if len(Listar) > 0:
             print("\nA seguir estão os protocolos e as manifestações\n")
-            print(30 * '-=', "\n")
+            print(30 * '-/=', "\n")
             for i in Listar:
                 print(f"Protocolo: {i[0]}\nTipo de Manifestação: {i[1]}\nManifestação: {i[2]}\n")
                 print(30 * "-=")
